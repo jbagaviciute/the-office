@@ -1,0 +1,41 @@
+body{
+  background: $bg-color;
+  color: $text-color;
+  text-align: center;
+  font-family: $text-font;
+
+  h1{
+    color: $text-color-two;
+  }
+
+
+
+  .active{
+    background: $bg-color-two;
+    color: $text-color-two;
+  }
+
+  .tab{
+    display: none;
+    padding: 20px;
+    background: white;
+    width:570px;
+    border-radius: 8px;
+    margin: 0 auto;
+    line-height: 30px;
+
+      h4{
+        margin: 10px;
+      }
+
+      img{
+        width: 70%;
+      }
+
+      p{
+        text-align: justify;
+        margin: 10px;
+        color: $text-color-two;
+      }
+    }
+ }

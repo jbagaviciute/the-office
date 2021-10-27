@@ -1,0 +1,74 @@
+body {
+  background: #A5DEE5;
+  color: black;
+  text-align: center;
+  font-family: verdana; }
+  body h1 {
+    color: #585858; }
+  body .active {
+    background: white;
+    color: #585858; }
+  body .tab {
+    display: none;
+    padding: 20px;
+    background: white;
+    width: 570px;
+    border-radius: 8px;
+    margin: 0 auto;
+    line-height: 30px; }
+    body .tab h4 {
+      margin: 10px; }
+    body .tab img {
+      width: 70%; }
+    body .tab p {
+      text-align: justify;
+      margin: 10px;
+      color: #585858; }
+
+.tabs {
+  width: 610px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; }
+
+button {
+  width: 150px;
+  height: 60px;
+  background: none;
+  border: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: white;
+  font-size: 18px;
+  margin-bottom: -10px;
+  transition: 0.5s ease; }
+  button:hover {
+    cursor: pointer; }
+  button:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 130px;
+    height: 2px;
+    width: 0;
+    background: #585858;
+    transition: 0.5s ease;
+    opacity: 0.5; }
+  button:hover:before {
+    width: 140px; }
+  button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 8px;
+    top: 82px;
+    height: 2px;
+    width: 140px;
+    background: #585858;
+    transition: 0.5s ease;
+    transition-delay: 0.2s;
+    opacity: 0.5; }
+  button:hover:after {
+    width: 0;
+    opacity: 1; }
